@@ -1,0 +1,17 @@
+{
+  "timeZone": "Europe/Madrid",
+  "runtimeVersion": "V8",
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/forms.currentonly",
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/script.scriptapp",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "dependencies": {
+    "enabledAdvancedServices": [
+      { "userSymbol": "Sheets", "serviceId": "sheets", "version": "v4" }
+    ]
+  }
+}

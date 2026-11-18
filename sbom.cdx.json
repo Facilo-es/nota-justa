@@ -1,0 +1,73 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:2d5b46ba-fafa-4dd5-bda0-d2636e603827",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-14T13:36:29Z",
+  "component": {
+   "type": "application",
+   "name": "Nota Justa",
+   "version": "1.0.1",
+   "supplier": {
+    "name": "Facilo",
+    "url": [
+     "https://facilo.es"
+    ]
+   },
+   "description": "Google Forms add-on that scores quizzes with negative marking. No third-party code: Google Apps Script V8 runtime and the Sheets advanced service only; licence check calls the Freemius API from the sidebar."
+  }
+ },
+ "components": [
+  {
+   "type": "file",
+   "name": "Code.gs",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "60eddc92fa413254e4843f12483adb3c43f3ba3a6a50fb6ac81a856648cbebe1"
+    }
+   ]
+  },
+  {
+   "type": "file",
+   "name": "Sidebar.html",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6ba6020b327607ee58259f352a43bfa42f24598f765308b0a26197ea8279bf76"
+    }
+   ]
+  },
+  {
+   "type": "file",
+   "name": "appsscript.json",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "48b89fa5cc8439bf7f4fcb348703e8ccbab5ad2d63af0d266d3c494b36283eec"
+    }
+   ]
+  },
+  {
+   "type": "file",
+   "name": "engine.js",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "691a593164e00fa56655d96e712ff3dbb026c1a7ceb5d2814723409edb1d6187"
+    }
+   ]
+  },
+  {
+   "type": "file",
+   "name": "strings.js",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "a9be00829c2c68ca6756bcd8302017fb78a0ecdc1a7a13162713f2d015d43b3a"
+    }
+   ]
+  }
+ ]
+}
